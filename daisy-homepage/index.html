@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Daisy Yuan" />
+    <meta
+      name="description"
+      content="Daisy Yuan’s personal homepage: computer science, software engineering, and thoughtful web experiments."
+    />
+    <title>Home | Daisy Yuan</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="index.html" aria-label="Daisy Yuan home"
+        >Daisy Yuan<span class="brand-dot" aria-hidden="true"> ♡</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a
+        ><a href="projects.html">Projects</a><a href="ai-lab.html">AI lab</a>
+      </nav>
+      <span class="header-note">A little code, a little joy</span>
+    </header>
+    <main id="main">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">DAISY YUAN / CS &amp; SOFTWARE ENGINEERING</p>
+          <h1>
+            Hi, I’m Daisy.<br />Code, curiosity<br /><em>&amp; little joys.</em>
+          </h1>
+          <p class="intro">
+            Hi, I’m Daisy, a computer science master’s student at Northeastern
+            University, graduating in May 2027. I build software across data
+            infrastructure, full-stack applications, and AI-assisted tools.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="projects.html"
+              >Meet my projects <span aria-hidden="true">↗</span></a
+            ><a class="text-link" href="#about"
+              >A little about me <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </div>
+        <aside class="decision-card" aria-labelledby="decision-title">
+          <div class="card-top">
+            <span class="eyebrow">MY LITTLE IDEA DESK</span
+            ><span class="edition">01 / INTERACTIVE</span>
+          </div>
+          <h2 id="decision-title">A little choice,<br />a thoughtful build.</h2>
+          <p>
+            Good software starts with a little care. Pick a priority and peek at
+            how I think.
+          </p>
+          <div
+            class="priority-controls"
+            role="group"
+            aria-label="Engineering priority"
+          >
+            <button
+              class="priority"
+              type="button"
+              data-priority="clarity"
+              aria-pressed="true"
+            >
+              Clarity</button
+            ><button
+              class="priority"
+              type="button"
+              data-priority="speed"
+              aria-pressed="false"
+            >
+              Speed</button
+            ><button
+              class="priority"
+              type="button"
+              data-priority="resilience"
+              aria-pressed="false"
+            >
+              Resilience
+            </button>
+          </div>
+          <div class="decision-result" aria-live="polite" aria-atomic="true">
+            <p class="result-label">01 / CLARITY FIRST</p>
+            <h3 class="result-title">Make the next step obvious.</h3>
+            <p class="result-description">
+              Use clear labels, semantic HTML, and one meaningful action at a
+              time.
+            </p>
+            <p class="tradeoff">
+              <strong>The tradeoff</strong><br /><span class="result-tradeoff"
+                >Fewer options on screen can mean an extra step for advanced
+                tasks.</span
+              >
+            </p>
+          </div>
+          <a class="desk-link" href="projects.html#sql-master-class"
+            >Peek at my projects <span aria-hidden="true">↗</span></a
+          ><noscript
+            ><p>
+              Enable JavaScript to switch priorities. The clarity example
+              remains readable.
+            </p></noscript
+          >
+        </aside>
+      </section>
+      <section class="about-section" id="about">
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">01 / ABOUT</p>
+            <h2>A curious mind.<br />A soft spot for joy.</h2>
+          </div>
+          <div>
+            <p class="large-copy">
+              I’m interested in the connection between a good idea and software
+              people can actually use.
+            </p>
+            <p>
+              My experience includes software engineering at Rivian and data
+              engineering at Meta. I enjoy connecting reliable infrastructure
+              with interfaces that help people use it.
+            </p>
+            <p>
+              I value readable code, accessible interfaces, and understanding
+              why a solution works.
+            </p>
+            <a class="text-link" href="projects.html"
+              >Explore my projects <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="wrap experience-section"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / EXPERIENCE</p>
+            <h2 id="experience-title">Where I’ve grown.</h2>
+          </div>
+          <a
+            class="text-link"
+            href="https://www.linkedin.com/in/daisy-yuan-196891174/"
+            >Connect on LinkedIn <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <article class="experience-row">
+          <div>
+            <h3>Rivian Automotive</h3>
+            <p>Software Engineer Intern</p>
+            <p class="experience-date">May 2026 – August 2026</p>
+          </div>
+          <div>
+            <p>
+              Built a config-driven Python and SQL framework to automate four
+              types of data-quality checks across six production pipelines and
+              23 tables.
+            </p>
+            <ul>
+              <li>
+                Designed a Databricks persistence layer with an S3-sourced fact
+                table and a deduplicated materialized view.
+              </li>
+              <li>
+                Developed a custom Airflow operator on AWS EKS, combining
+                execution and data-quality checks while preserving DAG topology.
+              </li>
+              <li>
+                Containerized the operator with Docker and shipped it through
+                CI/CD with automated unit tests.
+              </li>
+              <li>
+                Delivered a three-page Streamlit dashboard for real-time
+                pipeline health monitoring.
+              </li>
+            </ul>
+            <p class="eyebrow">PYTHON / SQL / AIRFLOW / AWS / DOCKER</p>
+          </div>
+        </article>
+        <article class="experience-row">
+          <div>
+            <h3>Meta</h3>
+            <p>Data Engineer Intern</p>
+            <p class="experience-date">May 2025 – August 2025</p>
+          </div>
+          <div>
+            <p>
+              Developed distributed data infrastructure to automate Facebook
+              friending health assessments and onboard new experiments without
+              manual work.
+            </p>
+            <ul>
+              <li>
+                Worked with cross-functional partners to define 19 metrics and
+                implement a long-term trend-analysis framework.
+              </li>
+              <li>
+                Built ETL pipelines with Spark, Presto SQL, and Python to
+                process billions of rows in under ten minutes.
+              </li>
+              <li>
+                Designed Kafka and Flink streaming workflows for continuous
+                event processing and metric aggregation.
+              </li>
+            </ul>
+            <p class="eyebrow">SPARK / PRESTO SQL / PYTHON / KAFKA / FLINK</p>
+          </div>
+        </article>
+      </section>
+      <section class="wrap process-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / HOW I THINK</p>
+            <h2>From question to something useful.</h2>
+          </div>
+          <p>A simple loop. Always room to improve.</p>
+        </div>
+        <img
+          class="process-image"
+          src="images/process.svg"
+          width="720"
+          height="180"
+          alt="My working process: understand the problem, build a solution, then reflect on the result."
+        />
+        <div class="three-columns">
+          <article>
+            <span class="step-number">01</span>
+            <h3>Start with the person.</h3>
+            <p>What are they trying to do? What gets in their way?</p>
+          </article>
+          <article>
+            <span class="step-number">02</span>
+            <h3>Make it tangible.</h3>
+            <p>Build a small version that makes the idea testable.</p>
+          </article>
+          <article>
+            <span class="step-number">03</span>
+            <h3>Learn from the details.</h3>
+            <p>Check the edge cases, listen, and revise.</p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="wrap hobbies-section"
+        id="hobbies"
+        aria-labelledby="hobbies-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">04 / OFF THE CLOCK</p>
+            <h2 id="hobbies-title">Little things, big happiness.</h2>
+          </div>
+          <p>There’s more to me than what’s on my screen.</p>
+        </div>
+        <div class="hobby-grid">
+          <article class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">🎬</span>
+            <h3>Movie time</h3>
+            <p>
+              I love getting lost in a good movie. A little escape, a new story,
+              a lovely way to unwind.
+            </p>
+          </article>
+          <article class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">🛍️</span>
+            <h3>A little window shopping</h3>
+            <p>
+              Wandering through shops and finding something cute? That’s my kind
+              of afternoon.
+            </p>
+          </article>
+          <article class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">🐱</span>
+            <h3>Team tiny paws</h3>
+            <p>
+              I have a soft spot for cats. Little whiskers and curious faces
+              make everything better.
+            </p>
+          </article>
+          <article class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">🍰</span>
+            <h3>Something delicious</h3>
+            <p>
+              Good food is one of my favorite little joys. I’m always happy to
+              explore something tasty.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <a class="footer-name" href="index.html">Daisy Yuan</a>
+      <p>Made with curiosity &amp; a little sparkle.</p>
+      <a href="https://www.linkedin.com/in/daisy-yuan-196891174/">LinkedIn</a>
+      <a href="ai-lab.html#disclosure">AI collaboration notes</a
+      ><small>© 2026 Daisy Yuan · MIT licensed</small>
+    </footer>
+  </body>
+</html>

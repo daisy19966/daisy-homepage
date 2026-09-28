@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Daisy Yuan" />
+    <meta
+      name="description"
+      content="An explicitly AI-generated page exploring engineering tradeoffs, with transparent disclosure."
+    />
+    <title>AI lab | Daisy Yuan</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="index.html" aria-label="Daisy Yuan home"
+        >Daisy Yuan<span class="brand-dot" aria-hidden="true"> ♡</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="projects.html">Projects</a
+        ><a href="ai-lab.html" aria-current="page">AI lab</a>
+      </nav>
+      <span class="header-note">A little code, a little joy</span>
+    </header>
+    <main id="main">
+      <section class="wrap page-intro lab-intro">
+        <p class="eyebrow">03 / AI-GENERATED EXPERIMENT</p>
+        <h1>A little AI.<br /><em>A playful what-if.</em></h1>
+        <p class="intro">
+          A small experiment in explaining engineering tradeoffs. This page was
+          generated with AI, including its text, layout, and interaction.
+        </p>
+      </section>
+      <section class="wrap lab-grid" aria-labelledby="lab-title">
+        <div>
+          <p class="eyebrow">TRY THE TRADEOFF MIXER</p>
+          <h2 id="lab-title">What should a<br />homepage optimize?</h2>
+          <p>
+            Move the slider to explore a spectrum between visual richness and
+            minimal delivery. These are illustrative design choices, not
+            measured performance results.
+          </p>
+          <div class="slider-label">
+            <label for="balance">Design emphasis</label>
+            <output class="balance-value" for="balance">50 / 100</output>
+          </div>
+          <input
+            class="balance-input"
+            type="range"
+            id="balance"
+            min="0"
+            max="100"
+            value="50"
+            step="1"
+          />
+          <div class="range-endpoints">
+            <span>Lean delivery</span><span>Visual richness</span>
+          </div>
+        </div>
+        <article class="lab-result" aria-live="polite" aria-atomic="true">
+          <span class="eyebrow">A POSSIBLE DIRECTION</span>
+          <h3 class="mix-title">A balanced notebook</h3>
+          <p class="mix-description">
+            Use a strong typographic layout, a few purposeful graphics, and
+            small interactive details.
+          </p>
+          <p class="mix-caution">
+            Watch for: adding features simply because there is space.
+          </p>
+          <span class="lab-stamp">IDEA, NOT A BENCHMARK</span>
+        </article>
+        <noscript
+          ><p>
+            JavaScript is needed to update the mixer. The default balanced
+            example is shown.
+          </p></noscript
+        >
+      </section>
+      <section class="disclosure-section" id="disclosure">
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">TRANSPARENCY</p>
+            <h2>Made with AI.<br />Human review required.</h2>
+          </div>
+          <div>
+            <p>
+              This page is the designated AI-generated page for the
+              personal-homepage assignment. OpenAI Codex assisted with all three
+              pages, the styles, JavaScript, and project documentation.
+            </p>
+            <p>
+              The first two pages are the main personal-site pages; they are not
+              claimed to be unaided human work. Daisy must review the wording
+              and code before submission.
+            </p>
+            <p>
+              Work experience, education, and project details are summarized
+              from Daisy’s supplied résumé. Contact details and the original
+              résumé are not published here.
+            </p>
+            <a class="text-link" href="docs/genai-disclosure.md"
+              >Read the generation record <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <a class="footer-name" href="index.html">Daisy Yuan</a>
+      <p>Made with curiosity &amp; a little sparkle.</p>
+      <a href="https://www.linkedin.com/in/daisy-yuan-196891174/">LinkedIn</a>
+      <a href="ai-lab.html#disclosure">AI collaboration notes</a
+      ><small>© 2026 Daisy Yuan · MIT licensed</small>
+    </footer>
+  </body>
+</html>
