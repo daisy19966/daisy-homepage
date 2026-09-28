@@ -14,6 +14,12 @@ These links come from the supplied assignment PDF and may require course login. 
 
 Create an accessible, responsive, front-end-only personal homepage in vanilla HTML5, CSS3, and ES6+. Visitors can learn about Daisy's engineering interests, browse a project notebook, and explore design tradeoffs. The visual identity uses plum, berry pink, editorial typography, and a distinctive interactive “engineering desk.”
 
+## Screenshot
+
+![Daisy Yuan personal homepage](docs/screenshots/homepage.png)
+
+The homepage introduces Daisy's software engineering background, experience, projects, and interests through a responsive portfolio design with an interactive engineering desk.
+
 ## Pages and features
 
 - `index.html`: personal introduction, work experience, engineering desk, working process, and four hobby cards.
