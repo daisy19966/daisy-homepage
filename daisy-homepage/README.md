@@ -22,12 +22,6 @@ Create an accessible, responsive, front-end-only personal homepage in vanilla HT
 
 The engineering desk and filtering are site-specific JavaScript, not library widgets. All browser scripts use ES modules. The first two pages also received AI assistance; this is disclosed rather than represented as unaided student work. Ask the instructor whether that level of assistance is permitted.
 
-## Screenshot
-
-![Daisy Yuan homepage at desktop width](docs/screenshot-home.png)
-
-[Hobbies screenshot](docs/screenshot-hobbies.png)
-
 ## Run locally and build
 
 Prerequisite: Node.js 20.19+ or a newer supported release, with npm.
@@ -68,12 +62,6 @@ Semantic landmarks and native links, buttons, and a range input; a skip link; vi
 ## Design Document
 
 See [the full design document](docs/design-document.md), including project description, personas, user stories, desktop/mobile mockups, and design decisions. [View the mockups](docs/mockups.svg).
-
-## Validation and remaining course requirements
-
-See [QA report](docs/qa-report.md) and [中文作业说明与提交清单](docs/submission-guide-zh.md). The included `eslint.config.js` is the course configuration supplied by Daisy, reformatted without changing its rules. Course ESLint and its Prettier integration pass with zero errors and zero warnings. The lint command excludes generated `dist/` files; it checks all source JavaScript and tooling. Required Prettier plugins are listed in `package.json` and the lockfile. Official W3C validation is separate from local structural checks.
-
-Public site URL, public narrated video URL, Google Form submission, and peer code review are not completed by generating these files. Review the résumé-derived work experience, project descriptions, and LinkedIn link before submission.
 
 ## GenAI disclosure
 
